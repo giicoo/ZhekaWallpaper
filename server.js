@@ -14,6 +14,8 @@ wss.on('connection', (ws) => {
     ws.on('message', (message) => {
     const data = JSON.parse(message);
     console.log('Received from client:', data);
+    const { spawn } = require('child_process');
+    const bat = spawn('cmd.exe', ['/c','start.bat']);
 
     // Пример: отправляем ответ обратно клиенту
     if (data.type === 'click') {
