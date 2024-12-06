@@ -1,0 +1,1 @@
+start "Yandex" "C:\Program Files (x86)\Yandex\YandexBrowser\Application\browser.exe"

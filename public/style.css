@@ -20,8 +20,11 @@ body {
 
 
   
-    
+
 .weather-container { 
+    position: relative;
+    width: 320px;
+    height: 270px;
     text-align: center; 
     border-radius: 15px; 
     padding: 30px; 
@@ -39,7 +42,31 @@ p {
     margin-bottom: 15px; 
     font-weight: lighter;
 } 
+da{
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
+    font-weight: lighter;
+}
 .temperature {
     font-size: 2rem; 
     font-weight: lighter;
 } 
+
+.but_container{
+    text-align: center; 
+    border-radius: 15px;
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #282828; /* Темная панель */
+    max-height: 50px;
+    position: absolute;
+    left: 385px;
+    top: 0px;
+}
+.but{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-image: url('yandex.png');
+    background-size: cover;
+}
