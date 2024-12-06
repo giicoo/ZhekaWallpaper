@@ -75,7 +75,7 @@ updateWeather();
 
 
 $(document).ready(function(){
-    $('#but').click(function() {
+    $('#browser').click(function() {
         generateTip();
     }); 
   });
